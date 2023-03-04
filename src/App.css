@@ -1,0 +1,6 @@
+@import url('../src/styles/variables.css');
+.App{
+  background-color: #D5DDBC;
+  width: 100vw;
+  height: 100vh;
+}
