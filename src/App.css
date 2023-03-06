@@ -3,18 +3,17 @@
   background-color: #D5DDBC;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 #container{
   padding: 0px 40px 0px 40px;
+  display: flex;
+  align-items: center;
 }
 #title{
   font-size: var(--font_50);
   color: var(--black);
   text-align: center;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 #paragraph{
   text-align: center;
