@@ -1,0 +1,17 @@
+#category{
+    background-color: var(--brown);
+    border: none;
+    font-size: var(--font_20);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    outline: none;
+    margin-top: 120px;
+}
+#category option{
+    text-align: center;
+}
+.CategorySelector{
+    width: 60%;
+    max-width: 550px;
+}
