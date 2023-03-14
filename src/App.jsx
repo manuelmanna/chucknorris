@@ -7,7 +7,6 @@ function App() {
   const [categories, setCategories] = useState([])
 
   function RenderCategories(){
-    if(categories.length === 0){
       let url = 'https://api.chucknorris.io/jokes/categories'
 
     let promise = fetch(url)
@@ -18,11 +17,9 @@ function App() {
         data => {
           data.forEach(element => {
             setCategories((categories) => [...categories, element]);
-            
           });
         }
     )
-    }
   }
 
   return (
