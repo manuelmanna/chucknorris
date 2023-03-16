@@ -15,10 +15,14 @@ function App() {
         response => response.json()
     ).then(
         data => {
-          data.forEach(element => {
-            setCategories((categories) => [...categories, element]);
-          });
-        }
+          let obj = data.map(function(item, index){
+            return {
+              id: index,
+              value: item
+            }
+          })
+          setCategories(obj)
+        }  
     )
   }
 
