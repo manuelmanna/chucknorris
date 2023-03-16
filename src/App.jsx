@@ -3,6 +3,7 @@ import './App.css'
 import chuck from './assets/chuc_desktop.svg'
 import CategorySelector from './components/CategorySelector'
 import JokeRender from './components/JokeRender'
+import Buttons from './components/Buttons'
 
 function App() {
   const [joke, setJoke] = useState("")
@@ -34,8 +35,8 @@ function App() {
       {joke != "" &&
         <JokeRender joke={joke}/>
        }
-      
-     
+      <Buttons text="carica joke" variant={"active"}/>
+      <Buttons text="copia testo" variant={joke === "" ? "disabled" : "active" }/>
       </div>
     </div>
   )

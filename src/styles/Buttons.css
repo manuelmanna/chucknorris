@@ -1,0 +1,15 @@
+.active{
+    background-color: var(--activate_color);
+}
+.disabled{
+    background-color: var(--disabled_color);
+}
+.buttons{
+    font-size: var(--font_20);
+    color: var(--button_color);
+    padding: 15px 60px 15px 60px;
+    max-width: 252px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
