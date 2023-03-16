@@ -10,7 +10,7 @@ const CategorySelector = ({categories, clbk}) => {
       <select name="category" id="category">
         <option value="" defaultValue hidden>Categorie</option>
         {categories.map((categories) => 
-        <option value={categories}>{categories}</option>
+        <option value={categories.value} key={categories.id}>{categories.value}</option>
         )}
       </select>
     </div>
