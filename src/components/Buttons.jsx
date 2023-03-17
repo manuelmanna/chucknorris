@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/Buttons.css'
-const Buttons = ({text, variant, clbk}) => {
+const Buttons = ({text, variant, clbk, styles}) => {
 
   function renderClasses(){
     let classes = [
-      'buttons', variant
+      'buttons', variant, styles
     ]
 
     return classes.join(" ")

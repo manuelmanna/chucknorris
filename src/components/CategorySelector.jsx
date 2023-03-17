@@ -4,7 +4,6 @@ const CategorySelector = ({categories, clbk}) => {
 
   useEffect(clbk, [])
 
-
   return (
     <div className='CategorySelector'>
       <select name="category" id="category">
