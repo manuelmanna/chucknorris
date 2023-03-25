@@ -14,7 +14,6 @@ function App() {
 
   function RenderCategories(){
       let url = 'https://api.chucknorris.io/jokes/categories'
-
     let promise = fetch(url)
 
     promise.then(
