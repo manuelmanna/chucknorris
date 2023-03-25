@@ -1,0 +1,30 @@
+.active{
+    background-color: var(--activate_color);
+}
+.disabled{
+    background-color: var(--disabled_color);
+}
+.buttons{
+    font-size: var(--font_20);
+    color: var(--button_color);
+    padding: 15px 60px 15px 60px;
+    width: 252px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-top-75{
+    margin-top: 20px;
+}
+@media screen and (min-width: 394px) {
+    .buttons{
+        width: 450px;
+    }
+    .margin-top-20{
+        margin-top: 15px;
+    }
+  }
